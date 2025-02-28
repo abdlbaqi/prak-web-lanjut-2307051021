@@ -39,7 +39,7 @@
                 </div>
             
                 <h1 class="mt-6 text-center font-semibold text-gray-900 dark:text-white" style="font-size: 30pt;">
-                    FUAD ABDUL BAQI - 2307051021
+                    FUAD ABDUL BAQII - 2307051021
                 </h1>
 
 
