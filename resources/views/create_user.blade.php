@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form User</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
+@extends('layouts.app')
+
+@section('content')
+
+<script src="https://cdn.tailwindcss.com"></script>
+
 <body class="bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center min-h-screen">
 
     <div class="bg-white shadow-xl rounded-lg p-8 w-full max-w-md border border-gray-200">
@@ -56,5 +54,9 @@
         </form>
     </div>
 
-</body>
-</html>
+
+@endsection
+
+
+
+ 
