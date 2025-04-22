@@ -32,10 +32,12 @@
                                 <td>{{ $user->nama_kelas }}</td>
                                 <td>
                                     @if ($user->foto)
-                                        <img src="{{ asset($user->foto) }}" alt="Foto {{ $user->nama }}" width="50">
-                                    @else
-                                        <span class="text-muted">Tidak ada foto</span>
-                                    @endif
+                                    <img src="{{ asset('storage/uploads/' . $user->foto) }}" alt="Foto {{ $user->nama }}" width="50">
+                                @else
+                                    <span class="text-muted">Tidak ada foto</span>
+                                @endif
+                                
+                                
                                 </td>
                                 <td>
                                     <a href="{{ route('users.show', $user['id']) }}" class="btn btn-warning">Detail</a>
